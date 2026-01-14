@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+    text-align: center;
+    background-color: #5F9EA0;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+img {
+    object-fit: contain;
+    max-width: 100%;
+}
+
+.primary-image {
+    height: 300px;
+}
+
+.images {
+    height: 150px;
+}
+
+/* 自定義 */
+h2{
+    text-align: center;
+    background-color: #fff;
+}
+.card{
+    transition: transform .5s, box-shadow .5s;
+}
+
+.object-fit{
+    object-fit: cover;
+}
+.card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .26);
+}
+.images{
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}       
